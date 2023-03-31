@@ -9,14 +9,15 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/app_Titulo"
-        android:textSize="35sp"
-        android:layout_marginTop="70dp"
         android:layout_gravity="center"
-        android:textColor="@color/green"
+        android:layout_marginTop="70dp"
         android:fontFamily="sans-serif-condensed"
+        android:text="@string/app_Titulo"
+        android:textColor="@color/green"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,11 +32,12 @@
         android:src="@drawable/img" />
 
     <Button
+        android:id="@+id/boton1"
         android:layout_width="141dp"
         android:layout_height="wrap_content"
-        android:text="@string/app_botton1"
         android:layout_gravity="center"
         android:layout_marginTop="70dp"
-/>
+        android:onClick="Siguiente"
+        android:text="@string/app_botton" />
 
 </LinearLayout>

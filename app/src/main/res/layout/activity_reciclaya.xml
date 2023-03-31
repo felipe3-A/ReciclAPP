@@ -73,12 +73,13 @@
         android:text="@string/app_info2"
         android:textSize="13sp"
         android:textStyle="bold" />
+
     <Button
         android:layout_width="191dp"
         android:layout_height="wrap_content"
-        android:text="@string/button_return"
         android:layout_gravity="center"
         android:layout_marginTop="90dp"
         android:backgroundTint="@color/green"
-        />
+        android:onClick="menu"
+        android:text="@string/button_return" />
 </LinearLayout>

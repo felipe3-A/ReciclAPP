@@ -1,11 +1,13 @@
 <resources>
     <string name="app_name">ReciclApp</string>
     <string name="app_Titulo">App Ambiental</string>
+    <string name="app_botton">!Empieza aqui¡</string>
 
     <string name="app_menu">Menu</string>
     <string name="app_botton1">!Recicla ya¡</string>
     <string name="app_botton2">Tipos</string>
     <string name="app_botton3">Metodos</string>
+    <string name="app_botton4">Ver Landing</string>
 
     <string name="app_titulo1">Recicla ya</string>
     <string name="app_info1">Esta caneca sirve para depositar plástico, vidrio, metales, papel y cartón. Caneca Negra – Residuos No Aprovechables: Para depositar papel higiénico; servilletas, papeles y cartones contaminados con alimentos; papeles metalizados, entre otros.</string>
@@ -18,4 +20,5 @@
     <string name="app_contenido2">En este recipiente, ninguno de los desechos se pueden limpiar ni lavar, por lo que la mayoria de residuos estan contaminados con comida como sevilletas y papael higenico usado, entre otros.</string>
     <string name="app_contenido3">Metodos</string>
 
+    <string name="app_tipo">Tipos</string>
 </resources>

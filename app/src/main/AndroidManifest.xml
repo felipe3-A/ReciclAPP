@@ -12,6 +12,9 @@
         android:theme="@style/Theme.ReciclApp"
         tools:targetApi="31">
         <activity
+            android:name=".intento2"
+            android:exported="false" />
+        <activity
             android:name=".metodos"
             android:exported="false" />
         <activity
