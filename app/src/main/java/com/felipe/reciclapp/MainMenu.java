@@ -18,15 +18,15 @@ public class MainMenu extends AppCompatActivity {
         startActivity(siguiente);
     }
     public void tipos(View view){
-        Intent tipos = new Intent(this,tipos.class);
+        Intent tipos = new Intent(this, Tipos.class);
         startActivity(tipos);
     }
     public void recicla(View view){
-        Intent recicla = new Intent(this,reciclaya.class);
+        Intent recicla = new Intent(this, Reciclaya.class);
         startActivity(recicla);
     }
     public void metodos(View view){
-        Intent metodos = new Intent(this,metodos.class);
+        Intent metodos = new Intent(this, Metodos.class);
         startActivity(metodos);
     }
 }

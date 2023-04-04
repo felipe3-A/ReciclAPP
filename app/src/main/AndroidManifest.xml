@@ -12,16 +12,16 @@
         android:theme="@style/Theme.ReciclApp"
         tools:targetApi="31">
         <activity
-            android:name=".intento2"
+            android:name=".Intento2"
             android:exported="false" />
         <activity
-            android:name=".metodos"
+            android:name=".Metodos"
             android:exported="false" />
         <activity
-            android:name=".tipos"
+            android:name=".Tipos"
             android:exported="false" />
         <activity
-            android:name=".reciclaya"
+            android:name=".Reciclaya"
             android:exported="false" />
         <activity
             android:name=".MainMenu"

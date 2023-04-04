@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class intento extends AppCompatActivity {
+public class Intento extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,7 @@ public class intento extends AppCompatActivity {
     //metodos
     //Crear un intento
     public void Siguiente(View view){
-        Intent siguiente =new Intent(this,intento2.class);
+        Intent siguiente =new Intent(this, Intento2.class);
         startActivity(siguiente);
     }
 }
